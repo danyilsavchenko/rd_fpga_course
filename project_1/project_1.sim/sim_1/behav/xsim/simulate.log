@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+
+ <===================== TEST RESULTS ==================== >
+Test for WIDTH=4 PASSED
+Test for WIDTH=8 PASSED
+$finish called at time : 2770 ns : File "/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_decoder_parametric.v" Line 122

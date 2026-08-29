@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../amd/2026.1/data/rsb/busdef" \
+"tb_decoder_parametric_func_synth.v" \
+"../../../../../project_1.srcs/sources_1/new/decoder_parametric.v" \
+"../../../../../project_1.srcs/sim_1/new/tb_decoder_parametric.v" \
+
+# Do not sort compile order
+nosort
