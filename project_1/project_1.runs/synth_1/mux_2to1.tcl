@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/decoder_parametric.tcl"
+  variable script "/home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/mux_2to1.tcl"
   variable category "vivado_synth"
 }
 
@@ -57,10 +57,9 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-96740-danyil-aspirea51541g/incrSyn
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-5041-danyil-aspirea51541g/incrSyn
 set_param general.usePosixSpawnForFork 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xa7a12tcpg238-2I
 
@@ -75,7 +74,7 @@ set_property ip_output_repo /home/danyil/rd_fpga_course/project_1/project_1.cach
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib /home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/decoder_parametric.v
+read_verilog -library xil_defaultlib /home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/mux_2to1.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -89,7 +88,7 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top decoder_parametric -part xa7a12tcpg238-2I
+synth_design -top mux_2to1 -part xa7a12tcpg238-2I
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -99,10 +98,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef decoder_parametric.dcp
+write_checkpoint -force -noxdef mux_2to1.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-generate_parallel_reports -reports { "report_utilization -file decoder_parametric_utilization_synth.rpt -pb decoder_parametric_utilization_synth.pb"  } 
+generate_parallel_reports -reports { "report_utilization -file mux_2to1_utilization_synth.rpt -pb mux_2to1_utilization_synth.pb"  } 
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

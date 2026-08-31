@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log decoder_parametric.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_parametric.tcl
+    with args -log mux_2to1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_2to1.tcl
 
 INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 29-aug-2027.
 #-----------------------------------------------------------
@@ -8,63 +8,63 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Sat Aug 29 17:44:31 2026
-# Process ID         : 113264
+# Start of session at: Mon Aug 31 21:00:57 2026
+# Process ID         : 11186
 # Current directory  : /home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1
-# Command line       : vivado -log decoder_parametric.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_parametric.tcl
-# Log file           : /home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/decoder_parametric.vds
+# Command line       : vivado -log mux_2to1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_2to1.tcl
+# Log file           : /home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/mux_2to1.vds
 # Journal file       : /home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/vivado.jou
 # Running On         : danyil-aspirea51541g
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 26.04.1 LTS
 # Processor Detail   : AMD FX-9800P RADEON R7, 12 COMPUTE CORES 4C+8G
-# CPU Frequency      : 2894.473 MHz
+# CPU Frequency      : 2894.074 MHz
 # CPU Physical cores : 4
 # CPU Logical cores  : 4
 # Host memory        : 7219 MB
 # Swap memory        : 29916 MB
 # Total Virtual      : 37135 MB
-# Available Virtual  : 24782 MB
+# Available Virtual  : 30397 MB
 #-----------------------------------------------------------
 
 ****** Vivado v2026.1 (64-bit)
   **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
   **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
   **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-  **** Start of session at: Sat Aug 29 17:44:31 2026
+  **** Start of session at: Mon Aug 31 21:00:57 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 
-source decoder_parametric.tcl -notrace
-create_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:13 . Memory (MB): peak = 1781.480 ; gain = 280.059 ; free physical = 207 ; free virtual = 23126
-Command: synth_design -top decoder_parametric -part xa7a12tcpg238-2I
+source mux_2to1.tcl -notrace
+create_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:07 . Memory (MB): peak = 1718.477 ; gain = 281.059 ; free physical = 1064 ; free virtual = 28534
+Command: synth_design -top mux_2to1 -part xa7a12tcpg238-2I
 Starting synth_design
 Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xa7a12t'
 INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xa7a12t'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 113511
+INFO: [Synth 8-7075] Helper process launched with PID 11245
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 2270.738 ; gain = 489.258 ; free physical = 139 ; free virtual = 22463
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2205.734 ; gain = 487.258 ; free physical = 379 ; free virtual = 27845
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'decoder_parametric' [/home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/decoder_parametric.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'decoder_parametric' (0#1) [/home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/decoder_parametric.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux_2to1' [/home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/mux_2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2to1' (0#1) [/home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/mux_2to1.v:23]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:20 ; elapsed = 00:01:13 . Memory (MB): peak = 2354.707 ; gain = 573.227 ; free physical = 137 ; free virtual = 22019
+Finished Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2290.672 ; gain = 572.195 ; free physical = 281 ; free virtual = 27748
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2369.551 ; gain = 588.070 ; free physical = 133 ; free virtual = 21993
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2305.516 ; gain = 587.039 ; free physical = 277 ; free virtual = 27743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xa7a12tcpg238-2I
----------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xa7a12tcpg238-2I
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2369.551 ; gain = 588.070 ; free physical = 121 ; free virtual = 21986
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2305.516 ; gain = 587.039 ; free physical = 276 ; free virtual = 27743
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:01:16 . Memory (MB): peak = 2369.551 ; gain = 588.070 ; free physical = 156 ; free virtual = 21991
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2305.516 ; gain = 587.039 ; free physical = 268 ; free virtual = 27736
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -90,20 +90,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:01:46 . Memory (MB): peak = 2483.363 ; gain = 701.883 ; free physical = 197 ; free virtual = 21566
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2419.297 ; gain = 700.820 ; free physical = 128 ; free virtual = 27599
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:01:46 . Memory (MB): peak = 2499.207 ; gain = 717.727 ; free physical = 176 ; free virtual = 21551
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2435.141 ; gain = 716.664 ; free physical = 123 ; free virtual = 27595
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:01:47 . Memory (MB): peak = 2507.215 ; gain = 725.734 ; free physical = 155 ; free virtual = 21537
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2443.148 ; gain = 724.672 ; free physical = 117 ; free virtual = 27588
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -121,37 +121,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:05:27 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1280 ; free virtual = 25154
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:05:27 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1268 ; free virtual = 25150
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:05:28 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1232 ; free virtual = 25139
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:05:28 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1229 ; free virtual = 25138
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:05:28 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1225 ; free virtual = 25138
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:05:28 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1224 ; free virtual = 25138
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -167,39 +167,39 @@ Report Cell Usage:
 +------+-----+------+
 |      |Cell |Count |
 +------+-----+------+
-|1     |LUT5 |    16|
-|2     |IBUF |     5|
-|3     |OBUF |    16|
+|1     |LUT3 |     1|
+|2     |IBUF |     3|
+|3     |OBUF |     1|
 +------+-----+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    37|
+|1     |top      |       |     5|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:05:28 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1217 ; free virtual = 25136
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 165 ; free virtual = 27457
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:05:30 . Memory (MB): peak = 2703.027 ; gain = 921.547 ; free physical = 1101 ; free virtual = 25087
-Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:05:30 . Memory (MB): peak = 2705.996 ; gain = 921.547 ; free physical = 1083 ; free virtual = 25072
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2638.961 ; gain = 920.484 ; free physical = 157 ; free virtual = 27448
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2641.930 ; gain = 920.484 ; free physical = 157 ; free virtual = 27449
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2716.902 ; gain = 0.000 ; free physical = 801 ; free virtual = 24950
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2653.836 ; gain = 0.000 ; free physical = 142 ; free virtual = 27434
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2823.531 ; gain = 0.000 ; free physical = 642 ; free virtual = 25103
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2751.461 ; gain = 0.000 ; free physical = 192 ; free virtual = 27485
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 82b51f0a
+Synth Design complete | Checksum: 6f906600
 INFO: [Common 17-83] Releasing license: Vivado_Synthesis
 12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:06:17 . Memory (MB): peak = 2826.500 ; gain = 1045.020 ; free physical = 362 ; free virtual = 24674
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1083.030; main = 1008.013; forked = 320.263
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3804.180; main = 2826.504; forked = 1087.289
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2850.512 ; gain = 0.000 ; free physical = 358 ; free virtual = 24669
-INFO: [Common 17-1381] The checkpoint '/home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/decoder_parametric.dcp' has been generated.
-INFO: [Vivado 12-24828] Executing command : report_utilization -file decoder_parametric_utilization_synth.rpt -pb decoder_parametric_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Aug 29 17:51:39 2026...
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:43 . Memory (MB): peak = 2754.430 ; gain = 1035.953 ; free physical = 191 ; free virtual = 27483
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1872.851; main = 1861.007; forked = 278.846
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3587.418; main = 2754.434; forked = 1047.266
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2762.434 ; gain = 0.000 ; free physical = 191 ; free virtual = 27483
+INFO: [Common 17-1381] The checkpoint '/home/danyil/rd_fpga_course/project_1/project_1.runs/synth_1/mux_2to1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file mux_2to1_utilization_synth.rpt -pb mux_2to1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 31 21:01:55 2026...

@@ -1,6 +1,43 @@
 Time resolution is 1 ps
-
- <===================== TEST RESULTS ==================== >
-Test for WIDTH=4 PASSED
-Test for WIDTH=8 PASSED
-$finish called at time : 2770 ns : File "/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_decoder_parametric.v" Line 122
+Time: 30ns, LED Output: 0001
+Time: 40ns, LED Output: 0010
+Time: 50ns, LED Output: 0011
+Time: 60ns, LED Output: 0100
+Time: 70ns, LED Output: 0101
+Time: 80ns, LED Output: 0110
+Time: 90ns, LED Output: 0111
+Time: 100ns, LED Output: 1000
+Time: 110ns, LED Output: 1001
+Time: 120ns, LED Output: 1010
+Time: 130ns, LED Output: 1011
+Time: 140ns, LED Output: 1100
+Time: 150ns, LED Output: 1101
+Time: 160ns, LED Output: 1110
+Time: 170ns, LED Output: 1111
+Time: 180ns, LED Output: 0000
+Time: 190ns, LED Output: 0001
+Time: 200ns, LED Output: 0010
+Time: 210ns, LED Output: 0011
+Time: 220ns, LED Output: 0100
+Time: 230ns, LED Output: 0101
+Time: 240ns, LED Output: 0110
+Time: 250ns, LED Output: 0111
+Time: 260ns, LED Output: 1000
+Time: 270ns, LED Output: 1001
+Time: 280ns, LED Output: 1010
+Time: 290ns, LED Output: 1011
+Time: 300ns, LED Output: 1100
+Time: 310ns, LED Output: 1101
+Time: 320ns, LED Output: 1110
+Time: 330ns, LED Output: 1111
+Time: 340ns, LED Output: 0000
+Time: 350ns, LED Output: 0001
+Time: 360ns, LED Output: 0010
+Time: 370ns, LED Output: 0011
+Time: 380ns, LED Output: 0100
+Time: 390ns, LED Output: 0101
+Time: 400ns, LED Output: 0110
+Time: 410ns, LED Output: 0111
+Time: 420ns, LED Output: 1000
+$finish called at time : 420 ns : File "/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_led_counter_4bit.v" Line 67
+INFO: xsimkernel Simulation Memory Usage: 357536 KB (Peak: 423072 KB), Simulation CPU Usage: 2150 ms

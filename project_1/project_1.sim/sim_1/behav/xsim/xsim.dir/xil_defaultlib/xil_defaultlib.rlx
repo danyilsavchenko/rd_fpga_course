@@ -4,4 +4,6 @@ Jun 16 2026
 11:12:08
 /home/danyil/rd_fpga_course/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,,,,,,,
 /home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_decoder_parametric.v,1788016501,verilog,,,,tb_decoder_parametric,,,../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_led_counter_4bit.v,1788200680,verilog,,,,tb_led_counter_4bit,,,../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
 /home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/decoder_parametric.v,1788012617,verilog,,/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_decoder_parametric.v,,decoder_parametric,,,../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/project_1/project_1.srcs/sources_1/new/led_counter_4bit.v,1788200943,verilog,,/home/danyil/rd_fpga_course/project_1/project_1.srcs/sim_1/new/tb_led_counter_4bit.v,,led_counter_4bit,,,../../../../../../../amd/2026.1/data/rsb/busdef,,,,,

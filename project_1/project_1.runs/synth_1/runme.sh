@@ -37,4 +37,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log decoder_parametric.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_parametric.tcl
+EAStep vivado -log mux_2to1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_2to1.tcl

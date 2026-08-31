@@ -70,6 +70,17 @@ default) — наприклад, простий мультиплексор 2-в-
 необов'язково.
 
 ---
+> 🔵 **Відповідь**
+> 
+> [VERILOG CODE](project_1/project_1.srcs/sources_1/new/mux_2to1.v)
+> 
+> Warning LATCH
+> ![Latch warning](project_1/screenshots/latch_issue_mux2_to_1.png)
+> 
+> Latch remove:
+>![Latch warning removed](project_1/screenshots/mux_2_to_1_without_latch.png)
+
+---
 
 **3. НАПИСАТИ МОДУЛЬ ЛІЧИЛЬНИКА, ЩО ВИВОДИТЬ ЧИСЛО В ПАТЕРН НА LED** 
 
@@ -82,4 +93,13 @@ default) — наприклад, простий мультиплексор 2-в-
 на waveform, що лічильник коректно рахує 0→1→2→...→15→0 
 і що патерн на LED відповідає двійковому запису кожного значення.
 
+---
+> 🔵 **Відповідь**
+> 
+> [VERILOG CODE](project_1/project_1.srcs/sources_1/new/led_counter_4bit.v)
+> 
+> ![4 bit counter sim](project_1/screenshots/4_bit_counter_sim.png)
+>
+> Лічильник ракує коректно, патерн LED відповідає двійковому запису кожного значення
+> 
 ---
