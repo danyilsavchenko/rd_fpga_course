@@ -124,7 +124,7 @@
 ---
 > вигляд дампу
 >
-> ![sim_dump](lesson_5/screenshots/simulation_dump.png)
+> ![sim_dump](screenshots/simulation_dump.png)
 >
 > `X` стан з'являється тому, що на початок тесту ресет не ініціалізований в симуляції. Відповідно невизначений вхід схеми не може визначити її вихід
 > ```
@@ -216,7 +216,7 @@ danyil@danyil-aspirea51541g:~/rd_fpga_course/lesson_5$
 
 ---
 > SRC [counter.v](src/counter.v) 
-> TESTBENCH [ctb_counter.sv](src/tb_counter.sv) - System Verilog для спрощення таску виводу рядку
+> TESTBENCH [tb_counter.sv](sim/tb_counter.sv) - System Verilog для спрощення таску виводу рядку
 
 ============================================================
 
