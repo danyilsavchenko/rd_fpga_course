@@ -25,3 +25,4 @@ Testing load priority functionality...
 [PASS] load priority
 Counter simulation completed.
 $finish called at time : 306 ns : File "/home/danyil/rd_fpga_course/lesson_5/sim/tb_counter.sv" Line 235
+INFO: xsimkernel Simulation Memory Usage: 365756 KB (Peak: 431292 KB), Simulation CPU Usage: 2320 ms

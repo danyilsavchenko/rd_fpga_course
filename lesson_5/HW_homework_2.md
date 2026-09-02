@@ -214,6 +214,10 @@ INFO: [Common 17-206] Exiting xsim at Wed Sep  2 22:53:05 2026...
 danyil@danyil-aspirea51541g:~/rd_fpga_course/lesson_5$ 
 ```
 
+---
+> SRC [counter.v](src/counter.v) 
+> TESTBENCH [ctb_counter.sv](src/tb_counter.sv) - System Verilog для спрощення таску виводу рядку
+
 ============================================================
 
 БОНУС (ОПЦІЙНО)
