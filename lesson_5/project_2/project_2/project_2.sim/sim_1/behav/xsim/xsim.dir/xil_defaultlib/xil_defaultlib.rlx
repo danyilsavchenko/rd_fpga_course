@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 16 2026
+11:12:08
+/home/danyil/rd_fpga_course/lesson_5/project_2/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+/home/danyil/rd_fpga_course/lesson_5/sim/tb_counter.sv,1788377510,systemVerilog,,,,tb_counter,,uvm,../../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/lesson_5/src/counter.v,1788376647,verilog,,,,counter,,uvm,../../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,

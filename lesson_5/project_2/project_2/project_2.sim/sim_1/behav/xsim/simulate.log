@@ -1,0 +1,27 @@
+Time resolution is 1 ps
+Starting counter simulation...
+Testing load functionality...
+[PASS] counter load
+Testing count up functionality...
+[PASS] counter load
+[PASS] Counter up: value incremented correctly to 11
+[PASS] Counter up: value incremented correctly to 12
+[PASS] Counter up: value incremented correctly to 13
+[PASS] Counter up: value incremented correctly to 14
+[PASS] Counter up: value incremented correctly to 15
+[PASS] Counter up: value wrapped around to 0 as expected
+Testing hold functionality...
+[PASS] counter load
+[PASS] counter hold
+Testing count down functionality...
+[PASS] counter load
+[PASS] Counter down: value decremented correctly to  4
+[PASS] Counter down: value decremented correctly to  3
+[PASS] Counter down: value decremented correctly to  2
+[PASS] Counter down: value decremented correctly to  1
+[PASS] Counter down: value decremented correctly to  0
+[PASS] Counter down: value wrapped around to 15 as expected
+Testing load priority functionality...
+[PASS] load priority
+Counter simulation completed.
+$finish called at time : 306 ns : File "/home/danyil/rd_fpga_course/lesson_5/sim/tb_counter.sv" Line 235

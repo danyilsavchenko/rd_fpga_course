@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/danyil/rd_fpga_course/lesson_5/src/counter.v" into library work
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/danyil/rd_fpga_course/lesson_5/sim/tb_counter.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_counter
