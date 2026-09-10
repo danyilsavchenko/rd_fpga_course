@@ -1,10 +1,10 @@
 ## ЧАСТИНА 1. КОНТРОЛЕР ЗАМКА (ЗАНЯТТЯ 6)
 
-[LOCK_CONTROLLER](lesson_7/src/lock_controller.v)
-[DEBOUNCE MODULE](lesson_7/src/debounce.v)
-[TOP_MODULE](lesson_7/src/lock_controller_with_debounce.v)
+[LOCK_CONTROLLER](src/lock_controller.v)
+[DEBOUNCE MODULE](src/debounce.v)
+[TOP_MODULE](src/lock_controller_with_debounce.v)
 
-[TESTBENCH](lesson_7/sim/tb_lock_controller.sv)
+[TESTBENCH](sim/tb_lock_controller.sv)
 
 Тестбенч робився тільки для модуля замка, без врахування debounce, так як тестування інтеграції цих двох модулів вимагає значно більше часу
 
@@ -23,16 +23,16 @@ Lock controller testbench completed.
 
 ## ЧАСТИНА 2. АНАЛІЗ TIMING SUMMARY REPORT (ЗАНЯТТЯ 7)
 
-Значення таймінг репорту після компіляції [ALU](lesson_7/src/alu.v)
-![alu_wns_value](lesson_7/screenshots/alu_wns_value.png)
+Значення таймінг репорту після компіляції [ALU](src/alu.v)
+![alu_wns_value](screenshots/alu_wns_value.png)
 
 ##  ЧАСТИНА 3. НЕКОНВЕЄРИЗОВАНИЙ І КОНВЕЄРИЗОВАНИЙ ВАРІАНТ (ЗАНЯТТЯ 7)
 
-[STA constrain](lesson_7/constr/sta_investigation_constr.xdc)
+[STA constrain](constr/sta_investigation_constr.xdc)
 
-Для [логічної функції без конвеєра](lesson_7/src/logic_func_plain.v)
-![bad wns](lesson_7/screenshots/bad_wns.png)
+Для [логічної функції без конвеєра](src/logic_func_plain.v)
+![bad wns](screenshots/bad_wns.png)
 
-Для [логічної функції з конвеєром](lesson_7/src/logic_func_pipe.v)
-![fine wns](lesson_7/screenshots/fine_wns.png)
+Для [логічної функції з конвеєром](src/logic_func_pipe.v)
+![fine wns](screenshots/fine_wns.png)
 
