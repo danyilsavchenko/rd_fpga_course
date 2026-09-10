@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="39992" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="42167" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="45132" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="47034" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="48889" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="danyil" Host="danyil-aspirea51541g" Pid="51122" HostCore="4" HostMemory="7050024">
+    </Process>
+</ProcessHandle>

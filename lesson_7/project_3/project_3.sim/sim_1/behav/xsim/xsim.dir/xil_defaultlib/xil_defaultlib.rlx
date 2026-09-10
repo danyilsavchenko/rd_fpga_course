@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 16 2026
+11:12:08
+/home/danyil/rd_fpga_course/lesson_7/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+/home/danyil/rd_fpga_course/lesson_7/sim/tb_lock_controller.sv,1789064265,systemVerilog,,,,tb_lock_controller,,uvm,../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/lesson_7/src/debounce.v,1789063263,verilog,,/home/danyil/rd_fpga_course/lesson_7/src/lock_controller.v,,debounce,,,../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/lesson_7/src/lock_controller.v,1789063792,verilog,,/home/danyil/rd_fpga_course/lesson_7/src/lock_controller_with_debounce.v,,lock_controller,,uvm,../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,
+/home/danyil/rd_fpga_course/lesson_7/src/lock_controller_with_debounce.v,1789062530,verilog,,,,lock_controller_with_debounce,,,../../../../../../../../amd/2026.1/data/rsb/busdef,,,,,

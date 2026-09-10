@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Sep 10 23:01:02 2026
+# Process ID         : 50727
+# Current directory  : /home/danyil/rd_fpga_course/lesson_7/project_sta_pipe/project_sta_pipe.runs/synth_1
+# Command line       : vivado -log logic_func_plain.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source logic_func_plain.tcl
+# Log file           : /home/danyil/rd_fpga_course/lesson_7/project_sta_pipe/project_sta_pipe.runs/synth_1/logic_func_plain.vds
+# Journal file       : /home/danyil/rd_fpga_course/lesson_7/project_sta_pipe/project_sta_pipe.runs/synth_1/vivado.jou
+# Running On         : danyil-aspirea51541g
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04.1 LTS
+# Processor Detail   : AMD FX-9800P RADEON R7, 12 COMPUTE CORES 4C+8G
+# CPU Frequency      : 2891.134 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 7219 MB
+# Swap memory        : 29916 MB
+# Total Virtual      : 37135 MB
+# Available Virtual  : 26157 MB
+#-----------------------------------------------------------
+source logic_func_plain.tcl -notrace

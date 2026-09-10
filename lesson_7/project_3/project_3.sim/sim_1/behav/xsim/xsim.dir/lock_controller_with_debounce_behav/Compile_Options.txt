@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "lock_controller_with_debounce_behav" "xil_defaultlib.lock_controller_with_debounce" "xil_defaultlib.glbl" -log "elaborate.log" 

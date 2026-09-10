@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+Starting lock controller testbench...
+Testing lock controller with input sequence: [ 5  3  7]
+[PASS] Input sequence [ 5  3  7]
+Testing lock controller with input sequence: [ 5 10  7]
+[FAIL] Input sequence [ 5 10  7], unlocked_led = 0, expected = 1
+Lock controller testbench completed.
+$finish called at time : 196 ns : File "/home/danyil/rd_fpga_course/lesson_7/sim/tb_lock_controller.sv" Line 95
+INFO: xsimkernel Simulation Memory Usage: 365748 KB (Peak: 431284 KB), Simulation CPU Usage: 2330 ms
