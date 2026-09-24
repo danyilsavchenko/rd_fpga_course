@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="system_tb" />
+            <top_module name="tc_types" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="101.000001 us"></ZoomEndTime>
+      <Cursor1Time time="101.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject type="logic" fp_name="/system_tb/sys_clk">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/btn">
+      <obj_property name="ElementShortName">btn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/led_tri_o">
+      <obj_property name="ElementShortName">led_tri_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_tri_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/pass_count">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/fail_count">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/stopped_led">
+      <obj_property name="ElementShortName">stopped_led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stopped_led[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/t1">
+      <obj_property name="ElementShortName">t1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">t1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/t2">
+      <obj_property name="ElementShortName">t2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">t2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/normal_period">
+      <obj_property name="ElementShortName">normal_period[63:0]</obj_property>
+      <obj_property name="ObjectShortName">normal_period[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/fast_period">
+      <obj_property name="ElementShortName">fast_period[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fast_period[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system_tb/slow_period">
+      <obj_property name="ElementShortName">slow_period[63:0]</obj_property>
+      <obj_property name="ObjectShortName">slow_period[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/clk_wiz_1/locked">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+      <obj_property name="label">clk_wiz_1_locked</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/clk_wiz_1/clk_out1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk_out1</obj_property>
+      <obj_property name="ObjectShortName">clk_out1</obj_property>
+      <obj_property name="label">clk_wiz_1_clk_out1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/microblaze_0/Reset">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+      <obj_property name="label">microblaze_0_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/microblaze_0_axi_periph/aresetn">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+      <obj_property name="label">microblaze_0_periph_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/rst_clk_wiz_1_100M/slowest_sync_clk">
+      <obj_property name="ElementShortName">slowest_sync_clk</obj_property>
+      <obj_property name="ObjectShortName">slowest_sync_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/rst_clk_wiz_1_100M/ext_reset_in">
+      <obj_property name="ElementShortName">ext_reset_in</obj_property>
+      <obj_property name="ObjectShortName">ext_reset_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/rst_clk_wiz_1_100M/aux_reset_in">
+      <obj_property name="ElementShortName">aux_reset_in</obj_property>
+      <obj_property name="ObjectShortName">aux_reset_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/rst_clk_wiz_1_100M/mb_debug_sys_rst">
+      <obj_property name="ElementShortName">mb_debug_sys_rst</obj_property>
+      <obj_property name="ObjectShortName">mb_debug_sys_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/dut/system_i/rst_clk_wiz_1_100M/dcm_locked">
+      <obj_property name="ElementShortName">dcm_locked</obj_property>
+      <obj_property name="ObjectShortName">dcm_locked</obj_property>
+   </wvobject>
+</wave_config>
