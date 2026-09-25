@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

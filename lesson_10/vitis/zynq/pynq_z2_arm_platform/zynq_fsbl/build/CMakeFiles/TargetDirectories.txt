@@ -1,0 +1,4 @@
+/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+# ninja log v5
+1	73	0	CMakeFiles/print_build_info	d2526eec2734b2dd
+1	73	0	/home/danyil/rd_fpga_course/lesson_10/vitis/zynq/pynq_z2_arm_platform/zynq_fsbl/build/CMakeFiles/print_build_info	d2526eec2734b2dd
+76	1321	1790323782742807892	CMakeFiles/fsbl.elf.dir/image_mover.c.obj	3d97fba1282362e7
+110	1334	1790323782748565620	CMakeFiles/fsbl.elf.dir/rsa.c.obj	5d0c1e0194b256fe
+83	1400	1790323782808300890	CMakeFiles/fsbl.elf.dir/nand.c.obj	b1891fd2493d92c
+95	1426	1790323782827783362	CMakeFiles/fsbl.elf.dir/nor.c.obj	9268f96d35a8f0f9
+112	1430	1790323782853123679	CMakeFiles/fsbl.elf.dir/sd.c.obj	6df64ac58780cc09
+113	1433	1790323782855813059	CMakeFiles/fsbl.elf.dir/ps7_init.c.obj	4ba2af9e0d1f318
+73	1454	1790323782876686658	CMakeFiles/fsbl.elf.dir/fsbl_handoff.S.obj	641d0a879e42b5ef
+75	1455	1790323782874765674	CMakeFiles/fsbl.elf.dir/fsbl_hooks.c.obj	c69bef36773e73e4
+103	1574	1790323782999827602	CMakeFiles/fsbl.elf.dir/pcap.c.obj	5c886f443b914ac5
+82	1631	1790323783046753552	CMakeFiles/fsbl.elf.dir/md5.c.obj	da2ec6757c0a5a8f
+104	1638	1790323783058207967	CMakeFiles/fsbl.elf.dir/qspi.c.obj	7eab2fae9d4f71a5
+79	1660	1790323783085437824	CMakeFiles/fsbl.elf.dir/main.c.obj	51f51ca85c83c488
+1661	2113	1790323783404700568	fsbl.elf	f7cf48924c67b258
